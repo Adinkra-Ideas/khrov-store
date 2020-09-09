@@ -1,6 +1,6 @@
 # Khrov Online store
 
-A simple online store built with Vue 3.
+A simple online store built with Vue 3 and Symfony.
 
 ## Deploy
 
@@ -57,7 +57,7 @@ then a message about problems on the server is rendered.
 - Vue 3 Composition API
 - Vue Router
 - Pinia
-- REST API I built with Symfony:
+- REST API (Symfony):
 - Geolocation API: [BigDataCloud](https://www.bigdatacloud.com/docs/api/free-reverse-geocode-to-city-api)
 - Adaptive layout
 
@@ -69,7 +69,7 @@ This Project is intended to showcase my Vue 3 Knowledge, Logics and Code Organiz
 2. Employers who need a Dev Employee,
 3. Other Developers who are in need of a Project Collaborator.
 
-For this reason, some Components were removed on purpose.
+For this reason, some Files were removed from this Github.
 
 The live preview can be viewed on a sub domain of my website https://store.khrov.com/ 
 

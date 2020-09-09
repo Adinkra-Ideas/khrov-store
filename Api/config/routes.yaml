@@ -1,0 +1,9 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+product_list:
+  path: /products
+  controller: App\Controller\ProductsController::products
+  methods: GET|HEAD
