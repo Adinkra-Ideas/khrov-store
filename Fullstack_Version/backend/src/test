@@ -1,0 +1,13 @@
+first visit https://localhost:8000 to beat cors
+
+fetch('https://localhost:8000/api/login_check', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({"username":"joead2","password":"Abc123", "email":"metu@gmail.cade"}),
+      })
+.then(response => response.json())
+.then(data => console.log(data))
+
+then visit https://localhost:8000/api/lucky/number

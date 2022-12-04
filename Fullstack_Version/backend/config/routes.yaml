@@ -1,0 +1,29 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+register:
+  path: /api/register
+  controller: App\Controller\AuthController::register
+  methods: POST
+login:
+  path: /api/login_check
+api_refresh_token:
+  path: /api/token/refresh
+logout:
+  path: /api/logout
+  controller: App\Controller\AuthController::logout
+  methods: PUT
+generate_captcha:
+  path: /captcha/gen
+  controller: App\Controller\CaptchaController::generateCaptcha
+  methods: POST
+validate_captcha:
+  path: /captcha/validate
+  controller: App\Controller\CaptchaController::validateCaptcha
+  methods: POST
+blog_list:
+  path: /api/lucky/number
+  controller: App\Controller\LuckyController::luckyNumber
+  methods: GET|HEAD

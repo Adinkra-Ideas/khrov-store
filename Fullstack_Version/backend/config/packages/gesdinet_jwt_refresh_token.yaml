@@ -1,0 +1,18 @@
+gesdinet_jwt_refresh_token:
+  refresh_token_class: App\Entity\RefreshToken
+  ttl: 604800 # number of seconds until refresh token expires DEFAULT=2592000
+  ttl_update: false # if refresh token is used, extend its TTL all over again DEFAULT=false
+  token_parameter_name: refresh_ # name of the token DEFAULT=refresh_token
+  return_expiration: false # if true, the expiration Unix timestamp will be added to response
+  return_expiration_parameter_name: refresh_token_expiration # name for the time inside the response if return_expiration===true
+  single_use: true # Alternative to ttl_update. single_use changes the refresh token after each use
+  # By default, the refresh token is returned in the body of a JSON response. Use the following configuration to set it in a HttpOnly cookie instead
+  cookie:
+    enabled: true
+    same_site: lax               # A value of 'strict' will cause our cookie to be used in another context
+    path: /                      # the cookie is available for the entire domain. You can specify a specific directory or path to limit the cookie's scope.
+    domain: null                 # auto detect the domain where this script is being run
+    http_only: true              # This way the refresh token will be inaccessible using JavaScript, mitigating XSS attack
+    secure: true                 # to make sure the cookie is only sent over HTTPS
+    remove_token_from_body: true # default value
+
