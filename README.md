@@ -63,8 +63,15 @@ then a message about problems on the server is rendered.
 
 ## PS
 
-This Project is intended to showcase my Vue 3 Knowledge, Logics and Code Organization Skills to potential Clients, Employers and Project Collaborators, therefore, some Components were removed on purpose.
+This Project is intended to showcase my Vue 3 Knowledge, Logics and Code Organization Skills to:
+
+1. Potential Clients in need of a Fullstack Developer, 
+2. Employers who need a Dev Employee,
+3. Other Developers who are in need of a Project Collaborator.
+
+For this reason, some Components were removed on purpose.
 
 The live preview can be viewed on a sub domain of my website https://store.khrov.com/ 
-If you found it interesting and would love to have a talk with me, I look forward to receiving your email message daniel@khrov.com
+
+If you found it interesting and would love to have a talk with me, maybe to ask for a Copy of the full Project Code or to request for my Service, then I look forward to receiving your email message daniel@khrov.com
 
