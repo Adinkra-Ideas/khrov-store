@@ -73,5 +73,5 @@ If you found it interesting and would love to have a talk with me, maybe to ask 
 ## Notice
 This project was designed over three years ago using Vue Framework. 
 
-Visit [https://store.khrov.com/](https://bigstore.khrov.com/) to see my current eCommerce desing using the Martvill Framework.
+Visit [https://bigstore.khrov.com/](https://bigstore.khrov.com/) to see my current eCommerce desing using the Martvill Framework.
 
