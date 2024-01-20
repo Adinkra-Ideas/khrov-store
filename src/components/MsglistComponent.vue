@@ -2,7 +2,7 @@
   interface Props {
     senderName: string,
     date: string,
-    subject: string,
+    subject: string, 
   }
   // Using 'const props' as in this example is necessary when we want to access
   // the props variable inside the script section of this component.
