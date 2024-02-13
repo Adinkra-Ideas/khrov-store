@@ -4,7 +4,7 @@ ZhouSend and Receive e-mails
  
 ## Install the dependencies
 ```bash 
-yarn 
+yarn  
 # or 
 npm install  
 ``` 
