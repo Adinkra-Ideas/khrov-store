@@ -6,7 +6,7 @@ ZhouSend and Receive e-mails
 ```bash
 yarn
 # or 
-npm install  
+npm install 
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
