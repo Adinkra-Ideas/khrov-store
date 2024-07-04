@@ -1,6 +1,6 @@
 <script setup lang="ts">
   interface Props {
-    senderName: string,
+    senderName: string ,
     date: string,
     subject: string,
   }
