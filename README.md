@@ -64,7 +64,3 @@ then a message about problems on the server is rendered.
 ## PS
 
 The live preview can be checked out on https://store.khrov.com/ 
-
-.
-.
-.
